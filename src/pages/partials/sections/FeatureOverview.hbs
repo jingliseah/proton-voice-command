@@ -1,0 +1,140 @@
+<div class="container-fluid position-relative" style="height: 100vh">
+    <div class="row">
+        <div class="col-12">
+            <div id="overview-menu" class="x70-menu-wrapper position-absolute zindex4 w-100">
+                <ul class="d-flex justify-content-around text-center text-light mt-3 mb-2">
+                    <li id="overview-nav-refined-designed" class="x70-menu-item"><a href="#" data-slide="1">REFINED DESIGN</a></li>
+                    <li id="overview-nav-refined-connectivity" class="x70-menu-item"><a href="#" data-slide="2">REDEFINED CONNECTIVITY</a></li>
+                    <li id="overview-nav-reassure-safety" class="x70-menu-item"><a href="#" data-slide="3">RESPONSIVE PERFORMANCE</a></li>
+                    <li id="overview-nav-responsive-performance" class="x70-menu-item"><a href="#" data-slide="4">REASSURED SAFETY</a></li>
+                </ul>
+
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+
+                <div class="model-intro centered">
+                    <h3 class="title text-center text-white text-uppercase text-inner text-shadow">There’s More than Meets the Eye</h3>
+                    <p class="text-center text-white text-inner text-shadow">Beneath the sleek design and premium comfort of the PROTON X70<br/>is a host of innovative features waiting to be discovered</p>
+                </div>
+            </div>
+
+            
+
+
+            <div class="video-slider-wrapper">
+                <div class="video-slider">
+                    <div class="vid-overlay"></div>
+                    {{>components/VideoContainer
+                        id = "video-1"
+                        mp4 = "/assets/x70/2020/img/video/Refined-Design.mp4"
+                    }}
+
+                    <div class="container-fluid model-headline zindex4">
+                        <div class="row">
+                            <div class="col-6 text-right">
+                                {{>components/Button
+                                    id = "btn-more-design"
+                                    link = "#featureDetails"
+                                    text = 'View Features'
+                                }}
+                            </div>
+                            <div class="col-6 text-left">
+                                {{>components/Button
+                                    id = "btn-design-video"
+                                    link = "https://youtu.be/e6mR4To7DLw"
+                                    text = 'Watch Video'
+                                    target = "_blank"
+                                }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-slider position-relative">
+                    <div class="vid-overlay"></div>
+                    {{>components/VideoContainer
+                        id = "video-2"
+                        mp4 = "/assets/x70/2020/img/video/Redefined-Connectivity.mp4"
+                    }}
+
+                    <div class="container-fluid model-headline zindex4">
+                        <div class="row">
+                            <div class="col-6 text-right">
+                                {{>components/Button
+                                    id = "btn-more-connectivity"
+                                    link = "#featureDetails"
+                                    text = 'View Features'
+                                }}
+                            </div>
+                            <div class="col-6 text-left">
+                                {{>components/Button
+                                    id = "btn-connectivity-video"
+                                    link = "https://youtu.be/e6mR4To7DLw"
+                                    text = 'Watch Video'
+                                    target = "_blank"
+                                }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-slider position-relative">
+                    <div class="vid-overlay"></div>
+                    {{>components/VideoContainer
+                        id = "video-3"
+                        mp4 = "/assets/x70/2020/img/video/Responsive-Performance.mp4"
+                    }}
+
+                    <div class="container-fluid model-headline zindex4">
+                        <div class="row">
+                            <div class="col-6 text-right">
+                                {{>components/Button
+                                    id= "btn-more-safety"
+                                    link = "#featureDetails"
+                                    text = 'View Features'
+                                }}
+                            </div>
+                            <div class="col-6 text-left">
+                                {{>components/Button
+                                    id= "btn-safety-video"
+                                    link = "https://youtu.be/e6mR4To7DLw"
+                                    text = 'Watch Video'
+                                    target = "_blank"
+                                }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-slider position-relative">
+                    <div class="vid-overlay"></div>
+                    {{>components/VideoContainer
+                        id = "video-4"
+                        mp4 = "/assets/x70/2020/img/video/Reassured-Safety.mp4"
+                    }}
+
+                    <div class="container-fluid model-headline zindex4">
+                        <div class="row">
+                            <div class="col-6 text-right">
+                                {{>components/Button
+                                    id = "btn-more-performance"
+                                    link = "#featureDetails"
+                                    text = 'View Features'
+                                }}
+                            </div>
+                            <div class="col-6 text-left">
+                                {{>components/Button
+                                    id = "btn-performance-video"
+                                    link = "https://youtu.be/e6mR4To7DLw"
+                                    text = 'Watch Video'
+                                    target = "_blank"
+                                }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

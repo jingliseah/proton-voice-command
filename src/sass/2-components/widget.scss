@@ -1,0 +1,62 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+
+#proton-x70-2020 {
+    .all-widgets-wrapper {
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        flex-direction: row;
+    
+        @media screen and (min-width: 768px){
+            display: block;
+            height: 100px;
+            top: calc(100vh / 4);
+            left: unset;
+            right: -65px;
+            flex-direction: column;
+        }
+    }
+    
+    .widget {
+        position: relative;
+        width: calc(100vw / 3);
+        background: linear-gradient(317deg, rgba(185,185,185,1) 0%, rgba(255,255,255,1) 100%); 
+        transition: all 0.5s ease-in-out;
+        
+
+        a {
+            font-family: 'MyriadPro-Regular', sans-serif !important;
+            letter-spacing: 1px;
+            font-size: 7.5px;
+            color: black;
+    
+            @media screen and (min-width: 768px){
+                letter-spacing: 3px;
+                transform: skew(30deg);
+                font-size: 10px;
+            }
+    
+            img {
+                height: 15px !important;
+    
+                @media screen and (min-width: 768px){
+                    height: 25px !important;
+                }
+            }
+        }
+    
+        @media screen and (min-width: 768px){
+            transform: skew(-30deg);
+            right: -150px;
+            width: 200px;
+    
+            &:hover {
+                right: -40px;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+    }
+}

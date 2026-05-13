@@ -1,0 +1,47 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .all-widgets-wrapper {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  flex-direction: row; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .all-widgets-wrapper {
+      display: block;
+      height: 100px;
+      top: calc(100vh / 4);
+      left: unset;
+      right: -65px;
+      flex-direction: column; } }
+
+#proton-x70-2020 .widget {
+  position: relative;
+  width: calc(100vw / 3);
+  background: linear-gradient(317deg, #b9b9b9 0%, white 100%);
+  transition: all 0.5s ease-in-out; }
+  #proton-x70-2020 .widget a {
+    font-family: 'MyriadPro-Regular', sans-serif !important;
+    letter-spacing: 1px;
+    font-size: 7.5px;
+    color: black; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .widget a {
+        letter-spacing: 3px;
+        transform: skew(30deg);
+        font-size: 10px; } }
+    #proton-x70-2020 .widget a img {
+      height: 15px !important; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .widget a img {
+          height: 25px !important; } }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .widget {
+      transform: skew(-30deg);
+      right: -150px;
+      width: 200px; }
+      #proton-x70-2020 .widget:hover {
+        right: -40px;
+        transition: all 0.5s ease-in-out; } }

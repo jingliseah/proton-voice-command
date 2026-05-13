@@ -1,0 +1,163 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="refined-design-slider-wrapper">
+                <div class="detail-slider video-slider">
+                    {{!-- <div class="model-intro centered text-white">
+                        <h1>REFINED<br>DESIGN</h1>
+
+                        <div class="progress bg-white">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div> --}}
+                    <div class="vid-overlay"></div>
+                    {{>components/VideoContainer
+                        id = "video-1"
+                        mp4 = "/assets/x70/2020/img/video/Refined-Design.mp4"
+                        loop = "loop"
+                    }}
+
+                    <div class="container-fluid model-headline zindex4">
+                        <div class="row mb-2">
+                            <div class="col-12 text-center mb-4 pb-5">
+                                {{>components/Button
+                                    id = "btn-connectivity-video"
+                                    link = "https://youtu.be/e6mR4To7DLw"
+                                    text = 'Watch Video'
+                                    target = "_blank"
+                                }}
+                            </div>
+                        </div>
+                    </div>
+
+                    {{!-- {{>components/VideoContainer
+                        id = "video-1"
+                        mp4 = "/assets/x70/2020/img/video/Refined-Design.mp4"
+                        vidTitle = "There’s More than<br>Meets the Eye"
+                        vidDescription = "Beneath the sleek design and exquisite comfort of the PROTON X70 is a host of innovative features that are waiting to be discovered."
+                        loop = "loop"
+                    }} --}}
+                </div>
+
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Main-USP.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = '“Design is intelligent thinking made visual”'
+                        description = 'Luxury goes beyond a visually impeccable exterior. It’s also in the finer details within the cabin, ready to pamper you on any journey.In the PROTON X70, everything is designed with your utmost comfort in mind. '
+                    }}
+                </div>
+
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Front-Ventilated-Seats.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Front Ventilated Seats'
+                        description = 'Circulates cool air through the front seats for improved ventilation and extra comfort.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Power-Tailgate-with-Foot-Sensor.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Power tailgate with<br>foot sensor'
+                        description = 'Open and close the tailgate hands-free thanks to the motion sensor that detects your foot movement.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Nappa-Leather-Power-Seats.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'NAPPA LEATHER<br/>POWER SEATS'
+                        description = 'Soft and supple seats equipped with power adjustment. The driver seat offers 6-way adjustment with 2-way lumbar support while the front passenger seat offers 4-way adjustment with ‘Boss’ switch for sheer comfort and convenience.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/LED-Headlamps-with-Daytime-Running-Lamps.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'LED Headlamps with<br>Daytime Running Lamps'
+                        description = 'Style meets purpose for increased visibility in all weather conditions.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Auto-Rain-Sensing-Wipers.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Auto Rain<br/>Sensing Wipers'
+                        description = 'Automatically switches on and adjusts the speed of the front wipers according to rainfall intensity for maximum visibility.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Front-Welcome-Lamps.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Front Welcome Lamps'
+                        description = 'Illuminate the way to the front doors of the vehicle with an exquisite touch.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Panoramic-Sunroof.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Panoramic Sunroof'
+                        description = 'Catch a breath of fresh air or open up to experience the world from where you are.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Instrument-Panel.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Instrument Panel'
+                        description = 'Meticulously crafted with luxurious soft-touch surfaces and silver finishing.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/LCD-Meter-Combination.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'LCD Meter Combination'
+                        description = '<span class="mr-1">7”</span> high definition display delivers crisp and clear images of the information that matters most.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Auto-Dual-Zone-Air-Conditioning.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Auto Dual Zone<br>Air-Conditioning'
+                        description = 'Maintains an optimal interior temperature no matter what the weather is outside.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/N95-cabin-filter.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'N95 Cabin Filter'
+                        description = 'An integral part of the air-conditioning system that effectively filters smoke particulates, dust, bacteria and other pollutants. Click <a class="text-white text-underline" href="">here</a> to find out more.'
+                    }}
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg"
+                        style="background-image:url('/assets/x70/2020/img/section/featureDetails/refinedDesign/mobile/Air-Purifier-System.jpg');">
+                    </div>
+                    {{>components/ModelHeadline
+                        title = 'Air Purifier System'
+                        description = 'Filters out harmful gases, removes bad odour and kills bacteria.'
+                    }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

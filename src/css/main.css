@@ -1,0 +1,190 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 p {
+  font-size: 14px; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 p {
+      font-size: 16px; } }
+
+#proton-x70-2020 h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 5px; }
+
+#proton-x70-2020 .fill-content {
+  padding-top: calc(66px + 40px);
+  height: 100%; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .fill-content {
+      padding-top: 66px; } }
+
+#proton-x70-2020 .text-shadow {
+  text-shadow: 1px 1px 4px #000; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .text-shadow {
+      text-shadow: 2px 2px 4px #000; } }
+
+#proton-x70-2020 .main-x70-logo.model-intro {
+  top: 130px; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .main-x70-logo.model-intro {
+      top: 15%; } }
+
+#proton-x70-2020 .main-x70-logo img {
+  height: 60px !important; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .main-x70-logo img {
+      height: 100px !important; } }
+
+#proton-x70-2020 .award-logo img {
+  height: 60px !important; }
+
+@media screen and (min-width: 768px) {
+  #proton-x70-2020 .award-logo {
+    height: 100px !important; } }
+
+#proton-x70-2020 .fp-slidesNav {
+  text-align: center; }
+
+#proton-x70-2020 .model-intro {
+  position: absolute;
+  left: 0;
+  top: calc(66px + 50px);
+  right: 0;
+  z-index: 1; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .model-intro {
+      top: 50px; } }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .model-intro .color-selection-container {
+      display: flex;
+      align-items: center; } }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .model-intro .color-selection-container #360-color-selection {
+      margin-bottom: 0; } }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .model-intro .color-selection-container span {
+      padding-right: 1rem; } }
+  #proton-x70-2020 .model-intro h1 {
+    line-height: 25px;
+    font-size: 16px; }
+    @media screen and (min-height: 768px) {
+      #proton-x70-2020 .model-intro h1 {
+        line-height: 32px;
+        font-size: 24px; } }
+  #proton-x70-2020 .model-intro .progress {
+    opacity: 0.7; }
+
+#proton-x70-2020 .view360-model-intro {
+  top: -220px; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .view360-model-intro {
+      top: -110px; } }
+  @media screen and (min-width: 1024px) {
+    #proton-x70-2020 .view360-model-intro {
+      top: -80px; } }
+
+#proton-x70-2020 .centered {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+#proton-x70-2020 .voice-info-alert {
+  position: absolute;
+  z-index: 10000;
+  background: white;
+  opacity: 1;
+  width: 300px;
+  right: 10px;
+  top: 70px; }
+  #proton-x70-2020 .voice-info-alert .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px; }
+  #proton-x70-2020 .voice-info-alert p {
+    font-size: 12px;
+    margin: 0; }
+  #proton-x70-2020 .voice-info-alert #btn-x70-modal-close {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    cursor: pointer; }
+
+#proton-x70-2020 .voice-info-alert-xs {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: flex-end; }
+  #proton-x70-2020 .voice-info-alert-xs .voice-info-alert-wrapper {
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    height: 170px;
+    background: linear-gradient(0deg, #000020 0%, #010317 45%, #144b7b 100%); }
+    #proton-x70-2020 .voice-info-alert-xs .voice-info-alert-wrapper .x70-info-alert-close {
+      position: absolute;
+      color: white;
+      top: 1rem;
+      right: 1rem;
+      cursor: pointer; }
+
+#proton-x70-2020 .title {
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0AA4D4;
+  font-family: "MyriadPro-Bold", sans-serif; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .title {
+      font-size: 1.75rem; } }
+
+#proton-x70-2020 .title-description {
+  width: 75%; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .title-description {
+      width: 100%; } }
+
+#proton-x70-2020 .social-icons {
+  height: 75% !important; }
+
+#proton-x70-2020 .rotate-title {
+  font-size: 12px; }
+
+#proton-x70-2020 .vid-overlay {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: black;
+  opacity: .3; }
+
+#proton-x70-2020 iframe[id*='ebBanner'] {
+  position: absolute;
+  z-index: 2; }
+
+#proton-x70-2020 .overlay-enable-scrolling {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3; }

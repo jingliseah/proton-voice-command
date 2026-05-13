@@ -1,0 +1,321 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 #price-comparison,
+#proton-x70-2020 #price-comparison-xs {
+  background: no-repeat center url("../img/section/landingPage/VariantComparison-Background.png"); }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .specs-overlay,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .specs-overlay {
+    margin-bottom: 10px;
+    display: none;
+    width: 93%;
+    height: 100%;
+    left: 10px;
+    top: 30px;
+    z-index: 2;
+    background-color: transparent;
+    text-align: center; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .specs-overlay img,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .specs-overlay img {
+      width: 50px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .slick-prev,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .slick-prev {
+    left: -25px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .slick-next,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .slick-next {
+    right: -25px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slide,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slide {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slide,
+      #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slide {
+        display: initial;
+        margin-bottom: 2rem; } }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper {
+    width: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .spec-slide-header,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .spec-slide-header {
+      font-weight: 600;
+      font-size: 1.2rem;
+      letter-spacing: 3px; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .spec-slide-header,
+        #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .spec-slide-header {
+          font-size: 1.3rem; } }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .specs-title,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .specs-title {
+      color: #0aa4d4;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      letter-spacing: 3px;
+      font-weight: bold; }
+      #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .specs-title strong,
+      #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .specs-title strong {
+        font-family: 'MyriadPro-Bold', sans-serif; }
+        #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .specs-title strong.title,
+        #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .specs-title strong.title {
+          font-size: 1.25rem; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .spec-desc:first-child .specs-title,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .specs-slider .spec-desc:first-child .specs-title {
+      margin-top: 0; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .spec-slide .spec-slide-outer,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .spec-slide .spec-slide-outer {
+      background-color: #d2f6ff;
+      width: 240px; }
+      #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper .spec-slider-wrapper .spec-slide .spec-slide-outer .spec-slide-container,
+      #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper .spec-slider-wrapper .spec-slide .spec-slide-outer .spec-slide-container {
+        background: linear-gradient(to bottom, #011b27, #2f444e 95%, #55666e 100%) !important; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-priceSpecsItem .spec-slider-wrapper .spec-slide .spec-dec,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-priceSpecsItem .spec-slider-wrapper .spec-slide .spec-dec {
+    padding: 0; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-priceSpecsItem .slick-track,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-priceSpecsItem .slick-track {
+    margin: 0; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-priceSpecsItem .slick-track .spec-slide,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-priceSpecsItem .slick-track .spec-slide {
+      margin-bottom: 0; }
+      #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-priceSpecsItem .slick-track .spec-slide .data-region-outer,
+      #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-priceSpecsItem .slick-track .spec-slide .data-region-outer {
+        filter: drop-shadow(1px 1px 3px #000000);
+        margin: 0 0 15px 0; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-engineSpecs .specs-slider .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-engineSpecs .specs-slider .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+    padding: 1px; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-engineSpecs .specs-slider .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-engineSpecs .specs-slider .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-transmissionSpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-transmissionSpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-transmissionSpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-transmissionSpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-chassisSpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-chassisSpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-chassisSpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-chassisSpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-dimensionSpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-dimensionSpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-dimensionSpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-dimensionSpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-exteriorSpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-exteriorSpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-exteriorSpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-exteriorSpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 97%, 95% 100%, 0 100%, 0 100%, 0 2%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-interiorSpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-interiorSpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 99%, 96% 100%, 0 100%, 0 100%, 0 1%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-interiorSpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-interiorSpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 99%, 96% 100%, 0 100%, 0 100%, 0 1%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-infotainmentSpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-infotainmentSpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 99%, 96% 100%, 0 100%, 0 100%, 0 1%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-infotainmentSpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-infotainmentSpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 99%, 96% 100%, 0 100%, 0 100%, 0 1%);
+      padding: 22px; }
+  #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-safetySecuritySpecs .spec-slide-outer,
+  #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-safetySecuritySpecs .spec-slide-outer {
+    position: relative;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 99%, 96% 100%, 0 100%, 0 100%, 0 1%);
+    padding: 1px;
+    height: 100%; }
+    #proton-x70-2020 #price-comparison .x70-variant-container .specs-wrapper #x70-safetySecuritySpecs .spec-slide-outer .spec-slide-container,
+    #proton-x70-2020 #price-comparison-xs .x70-variant-container .specs-wrapper #x70-safetySecuritySpecs .spec-slide-outer .spec-slide-container {
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 99%, 96% 100%, 0 100%, 0 100%, 0 1%);
+      padding: 22px; }
+
+#proton-x70-2020 .specs-slick {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  #proton-x70-2020 .specs-slick .specs-expand {
+    position: absolute;
+    z-index: 3;
+    top: -10px; }
+  #proton-x70-2020 .specs-slick .specs-expand-right {
+    position: absolute;
+    z-index: 3;
+    right: -9px;
+    top: -26px;
+    width: 60px;
+    text-align: center; }
+
+#proton-x70-2020 .x70-variant-container {
+  background: linear-gradient(to bottom, rgba(179, 229, 255, 0.15), rgba(83, 151, 176, 0.15), rgba(6, 87, 112, 0.15));
+  border: 2px solid #d2f6ff;
+  color: #fff; }
+  #proton-x70-2020 .x70-variant-container .specs-wrapper .spec-slider-wrapper {
+    padding: 0; }
+    #proton-x70-2020 .x70-variant-container .specs-wrapper .spec-slider-wrapper .spec-slide .spec-desc {
+      padding: 0; }
+      #proton-x70-2020 .x70-variant-container .specs-wrapper .spec-slider-wrapper .spec-slide .spec-desc a {
+        border-bottom: 0; }
+  #proton-x70-2020 .x70-variant-container div[data-region] {
+    position: relative;
+    background-color: #d2f6ff;
+    padding: 2px;
+    width: 222px;
+    clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 95%, 96% 100%, 0 100%, 0 100%, 0 5%); }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .x70-variant-container div[data-region] {
+        padding: 1px;
+        width: 243px; } }
+    #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container {
+      background: linear-gradient(to bottom, #011b27, #2f444e 95%, #55666e 100%) !important;
+      height: 180px;
+      width: 100%;
+      padding: 15px;
+      clip-path: polygon(4% 0, 100% 0, 100% 0, 100% 95%, 96% 100%, 0 100%, 0 100%, 0 5%);
+      transition: all .25s ease-in-out; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container {
+          padding: 22px; } }
+      #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container .data-region-item {
+        margin-left: 10px;
+        text-align: left; }
+      #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container .shared-price .price-text {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0; }
+        #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container .shared-price .price-text sup {
+          font-size: 1rem; }
+      #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container .shared-price .download-price {
+        margin-top: .5rem; }
+        #proton-x70-2020 .x70-variant-container div[data-region] .data-region-container .shared-price .download-price a {
+          color: #ef4d64;
+          font-style: italic;
+          text-decoration: underline; }
+    #proton-x70-2020 .x70-variant-container div[data-region] .spec-slide-header {
+      font-size: 1.5rem;
+      font-weight: bold; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .x70-variant-container div[data-region] .spec-slide-header {
+          font-size: 1.6rem; } }
+  #proton-x70-2020 .x70-variant-container .region-select {
+    width: 170px;
+    margin: 0;
+    transition: all 0.25s ease-in-out; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .x70-variant-container .region-select {
+        width: 180px; } }
+    #proton-x70-2020 .x70-variant-container .region-select .form-control {
+      cursor: pointer;
+      padding: 5px;
+      border: none;
+      border-bottom: 1px solid #ffffff;
+      border-radius: 0;
+      color: #ffffff;
+      background-image: url("../img/svg/arrow_down_polygon.svg") !important;
+      background-position: right;
+      background-size: 12px;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      -webkit-appearance: none;
+      -moz-appearance: none; }
+      #proton-x70-2020 .x70-variant-container .region-select .form-control:focus {
+        box-shadow: unset; }
+      #proton-x70-2020 .x70-variant-container .region-select .form-control option {
+        background: #3c3c3c; }
+  #proton-x70-2020 .x70-variant-container .specs-header {
+    letter-spacing: 1px; }
+    #proton-x70-2020 .x70-variant-container .specs-header a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0px; }
+    #proton-x70-2020 .x70-variant-container .specs-header h6 {
+      display: inline-block; }
+    #proton-x70-2020 .x70-variant-container .specs-header span {
+      float: right;
+      top: -8px !important; }
+    #proton-x70-2020 .x70-variant-container .specs-header .specs-accordion-title {
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      transition: all 0.25s ease-in-out;
+      font-weight: bold;
+      margin: 0 !important; }
+    #proton-x70-2020 .x70-variant-container .specs-header .specs-expand-icon {
+      color: #0AA4D4;
+      font-size: 30px; }
+    #proton-x70-2020 .x70-variant-container .specs-header .specs-wrapper .side-specs-title {
+      width: 20%;
+      display: inline-block;
+      vertical-align: top; }
+      #proton-x70-2020 .x70-variant-container .specs-header .specs-wrapper .side-specs-title .specs-list div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-weight: bold; }
+    #proton-x70-2020 .x70-variant-container .specs-header .specs-wrapper .specs-list {
+      width: 215px; }
+    #proton-x70-2020 .x70-variant-container .specs-header .specs-wrapper .specs-info {
+      width: 79.5%;
+      display: inline-block;
+      vertical-align: top; }
+      #proton-x70-2020 .x70-variant-container .specs-header .specs-wrapper .specs-info .spec-desc {
+        text-align: center;
+        justify-content: center; }
+    #proton-x70-2020 .x70-variant-container .specs-header .spec-slider-wrapper .spec-slide {
+      display: inline-block;
+      text-align: left;
+      margin: 0 10px;
+      width: auto;
+      font-size: 14px;
+      padding-bottom: 20px; }
+      #proton-x70-2020 .x70-variant-container .specs-header .spec-slider-wrapper .spec-slide .spec-desc {
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-self: center; }
+    #proton-x70-2020 .x70-variant-container .specs-header:hover .specs-accordion-title {
+      color: #0AA4D4;
+      transition: all 0.25s ease-in-out; }
+    #proton-x70-2020 .x70-variant-container .specs-header:hover .specs-expand-icon {
+      color: white;
+      transition: all 0.25s ease-in-out; }
+
+#proton-x70-2020 #price-comparison-xs .variant-container {
+  width: 94%; }
+
+#proton-x70-2020 .spec-slide__shadow {
+  filter: drop-shadow(1px 1px 3px #000000); }

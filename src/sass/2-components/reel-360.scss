@@ -1,0 +1,260 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+#proton-x70-2020 {
+
+	.exterior-360-wrapper {
+		// height: calc(100% - 120px);
+
+		// @media screen and (min-width: 768px) {
+		// 	height: calc(100% - 200px);
+		// }
+
+		.btn-select-color {
+			cursor: pointer;
+			height: 15px !important;
+		}
+
+		.exterior-360-wrapper-outer {
+			// display: flex;
+			// flex-direction: column;
+			// justify-content: flex-start;
+			// align-items: center;
+
+			.view360-model-intro {
+				// position: unset;
+				// flex: 0 0 auto;
+
+				.color-raw-name {
+					color: #ffffff;
+					font-weight: bold;
+					font-size: 1rem;
+					margin-top: 0.5rem;
+					letter-spacing: 3px;
+
+					@media screen and (min-width: 768px) {
+						font-size: 1.5rem;
+					}
+				}
+
+				.color-selection-container {
+					.title {
+						color: white;
+						font-size: 14px;
+					}
+
+					#360-color-selection {
+						margin-bottom: 0 !important;
+					}
+				}
+			}
+
+			// #x70-reel-wrapper {
+			// 	flex: 0 0 20%;
+			// 	display: flex;
+			// 	justify-content: center;
+			// 	align-items: center;
+			// 	position: relative;
+   	 		// 	top: -10px;
+
+			// 	@media screen and (min-width: 375px) {
+			// 		flex: 0 0 40%;
+			// 	}
+
+			// 	@media screen and (min-width: 768px) {
+			// 		flex: 0 0 auto;
+			// 	}
+
+			// }
+
+			.view360-model-button {
+				// flex: 0 0 auto;
+
+				&.model-headline {
+					bottom: 6%;
+
+					@media screen and (min-width: 768px) {
+						bottom: 2%;
+					}
+				}
+
+				.title {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	#x70-reel-wrapper {
+		width: 100%;
+		height: 100%;
+
+		// .reel {
+		// 	// width: 60% !important;
+
+		// 	img {
+		// 		// margin: 0 auto;
+		// 		// width: auto !important;
+		// 		// max-width: unset !important;
+		// 		width: 100% !important;
+
+		// 		@media screen and (min-width: 768px) {
+		// 			width: 60% !important;
+		// 		}
+		// 		@media screen and (min-width: 1200px) {
+		// 			width: 70% !important;
+		// 		}
+		// 	}
+		// }
+
+		img {
+			margin: 0 auto;
+			// width: auto !important;
+			// max-width: unset !important;
+			width: 100% !important;
+
+			@media screen and (min-width: 768px) {
+				width: 60% !important;
+			}
+			@media screen and (min-width: 1200px) {
+				width: 70% !important;
+			}
+		}
+
+		.reel-preloader {
+			display: none !important;
+		}
+		
+		.model-360 {
+			height: 100%;
+			display: none;
+			&.active {
+				display: block;
+			}
+		}
+	}
+
+	
+
+	// .view360-model-button {
+	// 	bottom: -145px;
+
+	// 	@media screen and (min-width: 768px) {
+	// 		bottom: -45px;
+	// 	}
+	// }
+
+	.cat {
+		display: none;
+		position: absolute;
+		top: 11%;
+		left: 60%;
+		width: 20%;
+		height: auto;
+
+		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+
+		&.hide-popup {
+			animation: scale-display--reversed 0.3s;
+			animation-fill-mode: forwards;
+		}
+
+		&.show-popup {
+			animation: scale-display 0.3s;
+			display: block;
+		}
+	}
+
+	@keyframes scale-display {
+		0% {
+			opacity: 0;
+			transform: scale(0);
+			-webkit-transform: scale(0);
+		}
+
+		100% {
+			opacity: 1;
+			transform: scale(1);
+			-webkit-transform: scale(1);
+		}
+	}
+
+	@keyframes scale-display--reversed {
+		0% {
+			display: inline-flex;
+			opacity: 1;
+			transform: scale(1);
+			-webkit-transform: scale(1);
+		}
+
+		100% {
+			display: none;
+			opacity: 0;
+			transform: scale(0);
+			-webkit-transform: scale(0);
+		}
+	}
+
+	/* Interior */
+	#interior-360 {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.interior-360-wrapper {
+		.model-intro {
+			top: 30vh
+		}
+
+		.model-headline {
+			bottom: 6%;
+
+			@media screen and (min-width: 768px) {
+				bottom: 2%;
+			}
+		}
+	}
+
+	.desc-container {
+		z-index: 1;
+		display: none;
+		max-width: 300px;
+		max-height: 500px;
+		min-width: 200px;
+		min-height: 250px;
+		background: #fff;
+		color: #000;
+		border-radius: 3px;
+		overflow: hidden;
+		-webkit-overflow-scrolling: touch;
+
+		@media screen and (min-width: 768px) {
+			max-width: 400px;
+		}
+
+
+		iframe {
+			border: none;
+			width: 100%;
+		}
+
+		.desc-container-modal-img {
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+			background-position: center !important;
+			height: 130px;
+		}
+
+		.title {
+			font-family: 'MyriadPro-Bold', sans-serif;
+			font-size: 1.25rem;
+			line-height: 28px;
+			color: black;
+		}
+
+		.text {
+			font-size: 14px
+		}
+	}
+}

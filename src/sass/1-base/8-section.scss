@@ -1,0 +1,26 @@
+@import "1-variables";
+
+.section {
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.model-headline {
+    position: absolute;
+    left: 0;
+    bottom: 6%;
+
+    .title {
+        letter-spacing: 3px;
+    }
+
+    @media screen and (min-width: 768px) {
+        bottom: 2%
+    }
+}
+
+#headline {
+    .model-headline {
+        bottom: 0,
+    }  
+}

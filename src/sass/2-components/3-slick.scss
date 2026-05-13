@@ -1,0 +1,67 @@
+#proton-x70-2020 {
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+    
+    .slick-prev {
+		width: 50px;
+		height: 50px;
+        z-index: 1;
+        left: 25px;
+        // transform: rotate(180deg);
+        background: url('/assets/x70/2020/img/svg/arrow-left.svg') no-repeat center;
+
+        &:before {
+            content: '';
+        }
+    }
+    
+    .slick-next {
+		width: 50px;
+		height: 50px;
+        right: 25px;
+        // transform: rotate(90deg);
+		background: url('/assets/x70/2020/img/svg/arrow-right.svg') no-repeat center;
+
+        &:before {
+            content: '';
+        }
+    }
+    
+    .slick-dots {
+        bottom: 12%;
+        
+        li {
+            width: 15px;
+    
+            button {
+                background-color: rgba(255, 255, 255, 0.5);
+                transform: skew(-40deg);
+                height: 10px;
+                width: 15px;
+
+                &:before {
+                    content: '';
+                }
+            }
+    
+            &.slick-active {
+                button {
+                    background-color: white;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                width: 30px;
+
+                button {
+                    width: 30px;
+                }
+            }
+        }
+    
+        @media screen and (min-width: 768px) {
+            bottom: 2%;
+        }
+    }
+}

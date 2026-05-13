@@ -1,0 +1,14 @@
+
+<video id={{id}} class="video-feature" data-src={{mp4}} muted data-keepplaying autoplay playsinline {{loop}}>
+    Your browser does not support HTML5 video.
+</video>
+
+{{#if vidTitle}}
+<div class="content-items position-absolute">
+    <h3 class="title text-center text-white text-uppercase">{{{vidTitle}}}</h3>
+
+    {{#if vidDescription}}
+    <p class="text-center text-white">{{{vidDescription}}}</p>
+    {{/if}}
+</div>
+{{/if}}

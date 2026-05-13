@@ -1,0 +1,46 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .guide-wrapper {
+  position: fixed;
+  z-index: 1;
+  bottom: -250px;
+  left: 0;
+  background: linear-gradient(0deg, #00030d 0%, #000210 75%, #00030d 100%);
+  width: 100%;
+  height: 240px;
+  transition: all 0.6s;
+  display: none; }
+  #proton-x70-2020 .guide-wrapper.active {
+    bottom: 0px; }
+  #proton-x70-2020 .guide-wrapper .guide-title {
+    text-align: center;
+    color: #0AA4D4;
+    letter-spacing: 3px;
+    font-size: 14px; }
+  #proton-x70-2020 .guide-wrapper .guide-info {
+    display: none; }
+    #proton-x70-2020 .guide-wrapper .guide-info h5 {
+      letter-spacing: 3px; }
+  @media (min-width: 1024px) {
+    #proton-x70-2020 .guide-wrapper {
+      display: block; } }
+  #proton-x70-2020 .guide-wrapper .expand-icon {
+    top: 15px;
+    transition: all 0.5s;
+    transform: rotate(0deg); }
+  #proton-x70-2020 .guide-wrapper.active .expand-icon {
+    transition: all 0.5s;
+    transform: rotate(180deg); }
+
+#proton-x70-2020 .guide-info-xs {
+  top: 103px;
+  width: 100%;
+  z-index: 2;
+  padding: 0 10px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px; }

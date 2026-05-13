@@ -1,0 +1,13 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .speech-error {
+  display: none;
+  top: 103px;
+  left: 15px;
+  z-index: 2;
+  letter-spacing: 3px; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .speech-error {
+      top: 66px; } }

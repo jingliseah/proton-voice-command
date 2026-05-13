@@ -1,0 +1,14 @@
+@import '1-variables';
+
+
+@mixin media-breakpoint($media) {
+    @if $media == sm {
+      @media only screen and (max-width: $break-small) { @content; }
+    }
+    @else if $media == md {
+      @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+    }
+    @else if $media == lg {
+      @media only screen and (min-width: $break-large) { @content; }
+    }
+  }

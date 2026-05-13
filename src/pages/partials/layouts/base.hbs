@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    {{#if title}}
+    {{title}}
+    {{else}}
+    Base Page Title
+    {{/if}}
+  </title>
+
+  {{#> meta-block}}
+  {{!-- Custom <meta> tags per page --}}
+  {{/meta-block}}
+
+  {{#> stylesheets-block }}
+  {{> includes/stylesheets }}
+  {{/stylesheets-block}}
+
+
+  {{#> head-block}}
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="https://www.proton.com/assets/libs/css/font-awesome/css/font-awesome.min.css">
+  <!-- SLICK CROUSEL -->
+  <link rel="stylesheet" href="https://www.proton.com/assets/libs/css/slick/slick.css">
+  <link rel="stylesheet" href="https://www.proton.com/assets/libs/css/slick/slick-theme.css">
+
+  {{/head-block}}
+
+
+</head>
+
+<body>
+
+
+  <!-- Header Nav and Navigation Menu -->
+  {{!-- {{> includes/nav}} --}}
+  <!-- /END Header Nav and Navigation Menu -->
+
+
+  <!-- Content Section -->
+  <main>
+    {{#> content-block}}
+    {{/content-block}}
+
+
+
+    <!-- Footer Section -->
+    {{#> footer-block}}
+    {{> includes/footer }}
+    {{/footer-block}}
+    <!-- /END Footer Section -->
+
+  </main>
+  <!-- /END Content Section -->
+
+
+
+  <!-- Scripts -->
+  {{#> scripts-block}}
+  {{> includes/scripts}}
+  {{/scripts-block}}
+  <!-- /END Scripts -->
+
+</body>
+
+
+
+</html>

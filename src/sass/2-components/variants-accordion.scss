@@ -1,0 +1,121 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+
+#proton-x70-2020 {
+	.variant-slick {
+
+		.slick-arrow {
+			top: 50px;
+		}
+
+	}
+	
+	.variant-specs-container {
+		.title {
+			font-size: 14px;
+		}
+	}
+
+	#variant-comparison, #variant-comparison-xs {
+		background: no-repeat center url("../img/section/landingPage/VariantComparison-Background.png");
+	}
+
+	.variant-img-container {
+		width: 275px;
+	}
+
+	.variant-name {
+		font-size: 1.2rem;
+	}
+
+	.variant-item {
+		display: flex !important;
+		justify-content: baseline;
+		align-items: center;
+		flex-direction: column;
+
+		.variant-descriptions {
+			.variant-model-container {
+
+				h3,
+				h4 {
+					color: #0aa4d4;
+					text-transform: uppercase;
+					display: inline-block;
+					font-weight: bold;
+					letter-spacing: 3px;
+				}
+			}
+		}
+	}
+
+	.variant-selected-colors {
+		display: flex;
+		align-items: center;
+
+		.btn-select-color {
+			width: 30px;
+			height: 13px;
+			transform: skew(-40deg);
+			display: inline-block;
+			border: 1px solid #ffffff;
+			border-radius: 1px;
+			margin-right: 5px;
+			// margin-bottom: 10px;
+			// cursor: pointer;
+
+			&.active {
+				filter: drop-shadow(2px 1px 5px #ffffff);
+			}
+
+			&:last-child {
+				margin-right: unset;
+			}
+
+			@media screen and (min-width: 768px){
+				width: 32px;
+				height: 12px;
+			}
+		}
+
+		.variant-white {
+			background-color: #ffffff;
+		}
+		// Red
+		.variant-rose {
+			background-color: #ab271a;
+		}
+
+		.variant-brown {
+			background-color: #875843;
+		}
+		// Jet grey
+		.variant-grey {
+			background-color: #5a5b5d;
+		}
+		// Armour silver
+		.variant-silver {
+			background-color: #bfc0c1;
+		}
+		.variant-space-grey {
+			background-color: #707070;
+		}
+	}
+
+	.variant-specs-item {
+		ul {
+			list-style: disc !important;
+			max-width: 80%;
+		}
+
+		li {
+			font-size: 12px;
+			margin-right: 5px;
+
+			@media screen and (min-width: 480px) {
+				font-size: 14px;
+			}
+		}
+	}
+}

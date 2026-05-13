@@ -1,0 +1,78 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">            
+            <div class="refined-design-slider-wrapper">
+                <div class="detail-slider video-slider">
+                    {{!-- <div class="model-intro centered text-white">
+                        <h1>RESPONSIVE<br>PERFORMANCE</h1>
+
+                        <div class="progress bg-white">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div> --}}
+                    <div class="vid-overlay"></div>
+                    {{>components/VideoContainer
+                        id = "video-1"
+                        mp4 = "/assets/x70/2020/img/video/Responsive-Performance.mp4"                                                
+                        loop = "loop"
+                    }}
+                    <div class="container-fluid model-headline zindex4">
+                        <div class="row mb-2">
+                            <div class="col-12 text-center mb-4 pb-5">
+                                {{>components/Button
+                                    id = "btn-connectivity-video"
+                                    link = "https://youtu.be/e6mR4To7DLw"
+                                    text = 'Watch Video'
+                                    target = "_blank"
+                                }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-slider">
+                    <div class="detail-slider-bg" style="background-image:url('/assets/x70/2020/img/section/featureDetails/responsivePerformance/mobile/Main-USP.jpg');"></div>
+                    {{>components/ModelHeadline
+                        title = '“Ignite your drive with exceptional performance.”'
+                        description = "Your road. Your command. Explore what’s under the hood of the PROTON X70 that drives such powerful performance. "
+                    }}      
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg" style="background-image:url('/assets/x70/2020/img/section/featureDetails/responsivePerformance/mobile/Engine.jpg');"></div>
+                    {{>components/ModelHeadline
+                        title = '1.8L TGDi Engine'
+                        description = "Experience a powerful yet efficient drive with 135kW of power and 300Nm of torque."
+                    }}      
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg" style="background-image:url('/assets/x70/2020/img/section/featureDetails/responsivePerformance/mobile/7-Speed-Dual-Clutch.jpg');"></div>
+                    {{>components/ModelHeadline
+                        title = '7-Speed Dual Clutch Transmission with Manual Mode'
+                        description = "Offers the best of manual and automatic transmissions for faster, smoother and more efficient gear shifting."
+                    }}      
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg" style="background-image:url('/assets/x70/2020/img/section/featureDetails/responsivePerformance/mobile/Drive-Mode-Selection.jpg');"></div>
+                    {{>components/ModelHeadline
+                        title = 'Drive Mode Selection'
+                        description = "Choose between Normal, Eco or Sport modes to fit your driving style."
+                    }}      
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg" style="background-image:url('/assets/x70/2020/img/section/featureDetails/responsivePerformance/mobile/Auto-Brake-Hold.jpg');"></div>
+                    {{>components/ModelHeadline
+                        title = 'Auto Brake Hold'
+                        description = "Safely retains the brake pressure when stopping at traffic lights or in heavy traffic. Brakes are released by depressing the accelerator pedal."
+                    }}      
+                </div>
+                <div class="detail-slider">
+                    <div class="detail-slider-bg" style="background-image:url('/assets/x70/2020/img/section/featureDetails/responsivePerformance/mobile/Ride-and-Handling.jpg');"></div>
+                    {{>components/ModelHeadline
+                        title = 'Ride and Handling'
+                        description = "Tuned to provide a safe, comfortable and enhanced NVH driving experience."
+                    }}      
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

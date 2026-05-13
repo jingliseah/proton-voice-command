@@ -1,0 +1,250 @@
+@import "1-base/1-variables";
+@import "1-base/4-mediaquery";
+
+#proton-x70-2020 {
+  p {
+    font-size: 14px;
+
+    @media screen and(min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  h1 {
+    // color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+  }
+
+  .fill-content {
+    padding-top: calc(66px + 40px);
+    height: 100%;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 66px;
+    }
+  }
+
+  .text-shadow {
+    text-shadow: 1px 1px 4px #000;
+
+    @media screen and (min-width: 768px) {
+      text-shadow: 2px 2px 4px #000;
+    }
+  }
+
+  .main-x70-logo {
+    &.model-intro {
+      top: 130px;
+
+      @media screen and (min-width: 768px) {
+        top: 15%;
+      }
+    }
+
+    img {
+      height: 60px !important;
+
+      @media screen and (min-width: 768px) {
+        height: 100px !important;
+      }
+    }
+  }
+
+  .award-logo {
+    img {
+      height: 60px !important;
+    }
+
+    @media screen and (min-width: 768px) {
+      height: 100px !important;
+    }
+  }
+
+  .fp-slidesNav {
+    text-align: center;
+  }
+
+  .model-intro {
+    position: absolute;
+    left: 0;
+    top: calc(66px + 50px);
+    right: 0;
+    z-index: 1;
+
+    @media screen and (min-width: 768px) {
+      top: 50px;
+    }
+
+    .color-selection-container {
+      @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+      }
+
+      #360-color-selection {
+        @media screen and (min-width: 768px) {
+          margin-bottom: 0;
+        }
+      }
+
+      span {
+        @media screen and (min-width: 768px) {
+          padding-right: 1rem;
+        }
+      }
+    }
+
+    h1 {
+      line-height: 25px;
+      font-size: 16px;
+
+      @media screen and (min-height: 768px) {
+        line-height: 32px;
+        font-size: 24px;
+      }
+    }
+
+    .progress {
+      opacity: 0.7;
+    }
+  }
+
+  .view360-model-intro {
+    top: -220px;
+
+    @media screen and (min-width: 768px) {
+      top: -110px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      top: -80px;
+    }
+  }
+
+  .centered {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .voice-info-alert {
+    position: absolute;
+    z-index: 10000;
+    background: white;
+    opacity: 1;
+    width: 300px;
+    right: 10px;
+    top: 70px;
+    .title {
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 12px;
+      margin: 0;
+    }
+
+    #btn-x70-modal-close {
+      position: absolute;
+      top: 2px;
+      left: 6px;
+      cursor: pointer;
+    }
+  }
+
+  .voice-info-alert-xs {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: flex-end;
+    // bottom: 0;
+
+    .voice-info-alert-wrapper {
+      position: fixed;
+      z-index: 10000;
+      bottom: 0;
+      text-align: center;
+      width: 100vw;
+      height: 170px;
+      background: linear-gradient(0deg, rgba(0, 0, 32, 1) 0%, rgba(1, 3, 23, 1) 45%, rgba(20, 75, 123, 1) 100%);
+
+      .x70-info-alert-close {
+        position: absolute;
+        color: white;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .title {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color-primary-blue;
+    font-family: "MyriadPro-Bold", sans-serif;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.75rem;
+    }
+  }
+
+  .title-description {
+    width: 75%;
+
+    @media screen and (min-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  .social-icons {
+    height: 75% !important;
+  }
+
+  .rotate-title {
+    font-size: 12px;
+  }
+
+  .vid-overlay {
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: black;
+    opacity: .3;
+  }
+
+  iframe[id*='ebBanner'] {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .overlay-enable-scrolling {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+  }
+}

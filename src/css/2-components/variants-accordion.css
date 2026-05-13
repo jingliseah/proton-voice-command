@@ -1,0 +1,74 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .variant-slick .slick-arrow {
+  top: 50px; }
+
+#proton-x70-2020 .variant-specs-container .title {
+  font-size: 14px; }
+
+#proton-x70-2020 #variant-comparison, #proton-x70-2020 #variant-comparison-xs {
+  background: no-repeat center url("../img/section/landingPage/VariantComparison-Background.png"); }
+
+#proton-x70-2020 .variant-img-container {
+  width: 275px; }
+
+#proton-x70-2020 .variant-name {
+  font-size: 1.2rem; }
+
+#proton-x70-2020 .variant-item {
+  display: flex !important;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column; }
+  #proton-x70-2020 .variant-item .variant-descriptions .variant-model-container h3,
+  #proton-x70-2020 .variant-item .variant-descriptions .variant-model-container h4 {
+    color: #0aa4d4;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 3px; }
+
+#proton-x70-2020 .variant-selected-colors {
+  display: flex;
+  align-items: center; }
+  #proton-x70-2020 .variant-selected-colors .btn-select-color {
+    width: 30px;
+    height: 13px;
+    transform: skew(-40deg);
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+    margin-right: 5px; }
+    #proton-x70-2020 .variant-selected-colors .btn-select-color.active {
+      filter: drop-shadow(2px 1px 5px #ffffff); }
+    #proton-x70-2020 .variant-selected-colors .btn-select-color:last-child {
+      margin-right: unset; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .variant-selected-colors .btn-select-color {
+        width: 32px;
+        height: 12px; } }
+  #proton-x70-2020 .variant-selected-colors .variant-white {
+    background-color: #ffffff; }
+  #proton-x70-2020 .variant-selected-colors .variant-rose {
+    background-color: #ab271a; }
+  #proton-x70-2020 .variant-selected-colors .variant-brown {
+    background-color: #875843; }
+  #proton-x70-2020 .variant-selected-colors .variant-grey {
+    background-color: #5a5b5d; }
+  #proton-x70-2020 .variant-selected-colors .variant-silver {
+    background-color: #bfc0c1; }
+  #proton-x70-2020 .variant-selected-colors .variant-space-grey {
+    background-color: #707070; }
+
+#proton-x70-2020 .variant-specs-item ul {
+  list-style: disc !important;
+  max-width: 80%; }
+
+#proton-x70-2020 .variant-specs-item li {
+  font-size: 12px;
+  margin-right: 5px; }
+  @media screen and (min-width: 480px) {
+    #proton-x70-2020 .variant-specs-item li {
+      font-size: 14px; } }

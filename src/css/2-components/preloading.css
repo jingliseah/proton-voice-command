@@ -1,0 +1,41 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 #loader-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  z-index: 10001;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#proton-x70-2020 .loader-name {
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #0AA4D4;
+  font-weight: bold; }
+
+#proton-x70-2020 .loader-circle {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  position: fixed;
+  border-top: 3px solid #0AA4D4;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 50%;
+  animation: loader 1s infinite linear; }
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

@@ -1,0 +1,50 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+#proton-x70-2020 { 
+    #loader-page {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        z-index: 10001;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .loader-name {
+        position: absolute;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: $color-primary-blue;
+        font-weight: bold;
+    }
+    
+    .loader-circle {
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        position: fixed;
+        border: {
+            top: 3px solid $color-primary-blue;
+            bottom: 1px solid transparent;
+            left: 1px solid transparent;
+            right: 1px solid transparent;
+            radius: 50%;
+        }
+        animation: loader 1s infinite linear;
+    }
+    
+    @keyframes loader {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }    
+}

@@ -1,0 +1,137 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .overlay-before-load {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: white;
+  z-index: 100; }
+
+#proton-x70-2020 .modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+#proton-x70-2020 .landing-popup {
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.96); }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .landing-popup {
+      width: 98%;
+      height: 96%; } }
+  #proton-x70-2020 .landing-popup .model-intro {
+    top: 0; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .landing-popup .model-intro {
+        top: 50px; } }
+  #proton-x70-2020 .landing-popup .modal-content {
+    background-color: transparent;
+    border: 0; }
+    #proton-x70-2020 .landing-popup .modal-content .text-wrapper h4 {
+      text-transform: uppercase; }
+    #proton-x70-2020 .landing-popup .modal-content .text-wrapper p {
+      text-transform: normal; }
+  #proton-x70-2020 .landing-popup .x70-modal-close {
+    position: absolute;
+    right: 0;
+    font-size: 45px;
+    font-family: initial;
+    text-shadow: none;
+    color: white;
+    font-weight: 100;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 5;
+    top: -14.5rem; }
+    #proton-x70-2020 .landing-popup .x70-modal-close:hover {
+      color: #a9a9a9 !important;
+      opacity: 0.8 !important;
+      transition: all 0.3s; }
+
+@media screen and (min-width: 1400px) {
+  #proton-x70-2020 .modal-body .keyword-wrapper {
+    max-width: 80%; } }
+
+@media screen and (min-width: 1800px) {
+  #proton-x70-2020 .modal-body .keyword-wrapper {
+    max-width: 60%; } }
+
+#proton-x70-2020 .main-voice-btn {
+  width: 100%;
+  margin: auto; }
+  #proton-x70-2020 .main-voice-btn img {
+    cursor: pointer;
+    border-radius: 100px;
+    animation: glowing 4000ms infinite; }
+  #proton-x70-2020 .main-voice-btn.active img {
+    animation: glowingActive 3000ms infinite; }
+  #proton-x70-2020 .main-voice-btn.model-headline {
+    bottom: 140%; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .main-voice-btn.model-headline {
+        bottom: 60%; } }
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 20px 0 #0AA4D4; }
+  40% {
+    box-shadow: 0 0 50px 0 #0AA4D4; }
+  60% {
+    box-shadow: 0 0 50px 0 #0AA4D4; }
+  100% {
+    box-shadow: 0 0 20px 0 #0AA4D4; } }
+
+@keyframes glowingActive {
+  0% {
+    box-shadow: 0 0 20px 0 white; }
+  40% {
+    box-shadow: 0 0 50px 0 white; }
+  60% {
+    box-shadow: 0 0 50px 0 white; }
+  100% {
+    box-shadow: 0 0 20px 0 white; } }
+
+#proton-x70-2020 .close-btn-wrapper {
+  right: 0;
+  top: 0; }
+
+#proton-x70-2020 .text-modal-frame-1,
+#proton-x70-2020 .text-modal-frame-2,
+#proton-x70-2020 .text-modal-frame-3,
+#proton-x70-2020 .text-modal-frame-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+#proton-x70-2020 .text-modal-frame-4 .text-modal-title {
+  font-size: 14px; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .text-modal-frame-4 .text-modal-title {
+      font-size: 1.5rem; } }
+
+#proton-x70-2020 .text-modal-frame-4 .keyword-frame {
+  height: 40px; }
+  #proton-x70-2020 .text-modal-frame-4 .keyword-frame .keyword-frame-inner {
+    height: 36px; }
+    #proton-x70-2020 .text-modal-frame-4 .keyword-frame .keyword-frame-inner .keyword-frame-text {
+      font-size: 10px; }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .text-modal-frame-4 .keyword-frame {
+      height: 45px; }
+      #proton-x70-2020 .text-modal-frame-4 .keyword-frame .keyword-frame-inner {
+        height: 41px; }
+        #proton-x70-2020 .text-modal-frame-4 .keyword-frame .keyword-frame-inner .keyword-frame-text {
+          font-size: 12px; } }
+
+#proton-x70-2020 .text-modal-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0AA4D4;
+  letter-spacing: 3px; }

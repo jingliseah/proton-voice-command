@@ -1,0 +1,41 @@
+#proton-x70-2020 .slick-dotted.slick-slider {
+  margin-bottom: 0; }
+
+#proton-x70-2020 .slick-prev {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  left: 25px;
+  background: url("/assets/x70/2020/img/svg/arrow-left.svg") no-repeat center; }
+  #proton-x70-2020 .slick-prev:before {
+    content: ''; }
+
+#proton-x70-2020 .slick-next {
+  width: 50px;
+  height: 50px;
+  right: 25px;
+  background: url("/assets/x70/2020/img/svg/arrow-right.svg") no-repeat center; }
+  #proton-x70-2020 .slick-next:before {
+    content: ''; }
+
+#proton-x70-2020 .slick-dots {
+  bottom: 12%; }
+  #proton-x70-2020 .slick-dots li {
+    width: 15px; }
+    #proton-x70-2020 .slick-dots li button {
+      background-color: rgba(255, 255, 255, 0.5);
+      transform: skew(-40deg);
+      height: 10px;
+      width: 15px; }
+      #proton-x70-2020 .slick-dots li button:before {
+        content: ''; }
+    #proton-x70-2020 .slick-dots li.slick-active button {
+      background-color: white; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .slick-dots li {
+        width: 30px; }
+        #proton-x70-2020 .slick-dots li button {
+          width: 30px; } }
+  @media screen and (min-width: 768px) {
+    #proton-x70-2020 .slick-dots {
+      bottom: 2%; } }

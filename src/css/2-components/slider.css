@@ -1,0 +1,43 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .feature-detail-slider-wrapper, #proton-x70-2020 .feature-detail-sub-slider-wrapper, #proton-x70-2020 .refined-design-slider-wrapper {
+  height: 100vh;
+  overflow: hidden; }
+  #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; }
+    #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .detail-slider-bg, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .detail-slider-bg, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .detail-slider-bg, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .detail-slider-bg, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .detail-slider-bg, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .detail-slider-bg {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      overflow: hidden;
+      background-position: center; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .detail-slider-bg, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .detail-slider-bg, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .detail-slider-bg, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .detail-slider-bg, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .detail-slider-bg, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .detail-slider-bg {
+          background-position: top; }
+          #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .detail-slider-bg.top, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .detail-slider-bg.top, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .detail-slider-bg.top, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .detail-slider-bg.top, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .detail-slider-bg.top, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .detail-slider-bg.top {
+            background-position-y: -80px; } }
+    #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .detail-sub-slider-title, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .detail-sub-slider-title, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .detail-sub-slider-title, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .detail-sub-slider-title, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .detail-sub-slider-title, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .detail-sub-slider-title {
+      font-family: 'MyriadPro-Bold', sans-serif;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 4px #464646; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .detail-sub-slider-title, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .detail-sub-slider-title, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .detail-sub-slider-title, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .detail-sub-slider-title, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .detail-sub-slider-title, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .detail-sub-slider-title {
+          text-shadow: 2px 2px 4px #000; } }
+    #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .model-headline, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .model-headline, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .model-headline, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .model-headline, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .model-headline, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .model-headline {
+      bottom: 18%; }
+      #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .model-headline .title, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .model-headline .title, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .model-headline .title, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .model-headline .title, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .model-headline .title, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .model-headline .title {
+        font-family: 'MyriadPro-Bold', sans-serif; }
+      #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .model-headline .disclaimer, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .model-headline .disclaimer, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .model-headline .disclaimer, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .model-headline .disclaimer, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .model-headline .disclaimer, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .model-headline .disclaimer {
+        font-size: 10px; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .model-headline, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .model-headline, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .model-headline, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .model-headline, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .model-headline, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .model-headline {
+          bottom: 10%; }
+          #proton-x70-2020 .feature-detail-slider-wrapper .detail-slider .model-headline.top, #proton-x70-2020 .feature-detail-slider-wrapper .detail-sub-slider .model-headline.top, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-slider .model-headline.top, #proton-x70-2020 .feature-detail-sub-slider-wrapper .detail-sub-slider .model-headline.top, #proton-x70-2020 .refined-design-slider-wrapper .detail-slider .model-headline.top, #proton-x70-2020 .refined-design-slider-wrapper .detail-sub-slider .model-headline.top {
+            top: 280px; } }

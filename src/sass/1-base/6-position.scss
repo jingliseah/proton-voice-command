@@ -1,0 +1,52 @@
+$spaceamounts: (0, 4, 8, 12, 16, 20, 24, 32, 48, 68);
+$sides: ("": "all"
+);
+
+@each $space in $spaceamounts {
+
+  @each $prefix, 
+  $value in $sides {
+    $property: if($prefix=='', '', -#{$value});
+
+    .top#{$prefix}#{$space} {
+      top#{$property}: #{$space}px;
+    }
+
+    .bottom#{$prefix}#{$space} {
+      bottom#{$property}: #{$space}px;
+    }
+
+    .left#{$prefix}#{$space} {
+      left#{$property}: #{$space}px;
+    }
+
+    .right#{$prefix}#{$space} {
+      right#{$property}: #{$space}px;
+    }
+
+    @media (min-width: 768px) {
+      .top-md-#{$prefix}#{$space} {
+        top#{$property}: #{$space}px;
+      }
+
+      .bottom-md-#{$prefix}#{$space} {
+        bottom#{$property}: #{$space}px;
+      }
+
+
+      .left-md-#{$prefix}#{$space} {
+        left#{$property}: #{$space}px;
+      }
+
+      .right-md-#{$prefix}#{$space} {
+        right#{$property}: #{$space}px;
+      }
+
+    }
+
+  }
+}
+
+/*
+  RUN GULP to generate the classes. Now you can use these helpers to customize spacing on HTML elements.
+*/

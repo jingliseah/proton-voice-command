@@ -1,0 +1,191 @@
+/* Custom Button */
+#proton-x70-2020 {
+  .cust-button-wrap {
+    opacity: 0.9;
+    filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.5));
+  }
+  
+  .cust-button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    // width: 100%;
+    width: 245px;
+    height: 45px;
+    background: lightblue;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0 39%, 6% 0, 100% 0, 100% 63%, 94% 100%, 0 100%);
+    clip-path: polygon(0 39%, 6% 0, 100% 0, 100% 63%, 94% 100%, 0 100%);
+    transition: all 0.3s;
+  
+    &.shine {
+      background-position: -150px -120px, 0 0;
+      background-image: linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0) 50%
+      );
+  
+      background-image: -webkit-linear-gradient(
+        top left,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0) 50%
+      );
+      background-image: -moz-linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0) 50%
+      );
+      background-image: -o-linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0) 50%
+      );
+      background-image: linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0) 50%
+      );
+  
+      &:hover {
+        background-position: 200px 0, 0 0;
+  
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+      }
+    }
+  }
+  
+  .cust-button-inner {
+    background: linear-gradient(0deg, rgba(42, 74, 103, 1) 0%, rgba(109, 199, 217, 1) 69%, rgba(201, 245, 254, 1) 100%);
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    // width: 97%;
+    width: 240px;
+    height: 41px;
+    -webkit-clip-path: polygon(0 39%, 5% 0, 100% 0, 100% 60%, 94% 100%, 0 100%);
+    clip-path: polygon(0 39%, 5% 0, 100% 0, 100% 60%, 94% 100%, 0 100%);
+  }
+  
+  .cust-button-text {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    letter-spacing: 3px;
+    font-size: 12px;
+  }
+  
+  
+  /* Voice Button */
+  #voice {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .voice-btn {
+    position: absolute;
+    display: none;
+    // bottom: 30%;
+    // right: 5%;
+    top: 30%;
+    left: 6%;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 20px 0 #0aa4d4;
+    -moz-box-shadow: 0px 0px 20px 0 #0aa4d4;
+    box-shadow: 0px 0px 20px 0 #0aa4d4;
+  
+    @media screen and (min-width:768px){ 
+      top: 25%;
+      left: 10%;
+    }
+    
+    img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+  
+    .click-here {
+      position: absolute;
+      font-size: 8px;
+      bottom: -28px;
+      text-align: center;
+      margin: 0;
+      letter-spacing: 3px;
+      width: 80px;
+      left: -14px;
+      line-height: 11px;
+      text-shadow: 1px 1px 4px #000;
+
+      @media screen and (min-width:768px){ 
+        bottom: -22px;
+        font-size: 10px;
+        line-height: unset;
+      }
+    }
+  
+    .fa-microphone {
+      color: white;
+    }
+  
+    &:focus {
+      outline: 0px auto -webkit-focus-ring-color;
+    }
+  
+    &:hover {
+      background: transparent;
+      transition: all 0.6s;
+      -webkit-box-shadow: 0px 0px 20px 0 #0aa4d4;
+      -moz-box-shadow: 0px 0px 20px 0 #0aa4d4;
+      box-shadow: 0px 0px 20px 0 #0aa4d4;
+  
+      // .fa-microphone {
+      //   color: #343a40;
+      //   transition: all 0.3s;
+      // }
+    }
+  
+    &.active {
+      background: transparent;
+      transition: all 0.3s;
+      -webkit-box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 1);
+      -moz-box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 1);
+      box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 1);
+      // .fa-microphone {
+      //   color: red;
+      //   transition: all 0.3s;
+      // }
+  
+      &:hover {
+        background: transparent;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
+

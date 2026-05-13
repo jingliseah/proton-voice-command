@@ -1,0 +1,66 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+#proton-x70-2020 {
+    .feature-detail-slider-wrapper, .feature-detail-sub-slider-wrapper, .refined-design-slider-wrapper {
+        height: 100vh;
+        overflow: hidden;
+        
+        .detail-slider, .detail-sub-slider {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+    
+            .detail-slider-bg {
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                overflow: hidden;
+                background-position: center;
+
+                @media screen and (min-width: 768px) {
+                    background-position: top;
+
+                    &.top {
+                        background-position-y: -80px;
+                    }
+                }
+            }
+    
+            .detail-sub-slider-title{
+                font-family: 'MyriadPro-Bold', sans-serif;
+                letter-spacing: 3px;
+                text-shadow: 1px 1px 4px #464646;
+
+                @media screen and (min-width: 768px) {
+                    text-shadow: 2px 2px 4px #000;
+                }
+            }
+    
+            .model-headline {
+                bottom: 18%;
+
+                .title {
+                    font-family: 'MyriadPro-Bold', sans-serif;
+                }
+
+                .disclaimer {
+                    font-size: 10px;
+                }
+
+                @media screen and (min-width: 768px){
+                    // top: calc(100vh / 3);
+                    bottom: 10%;
+
+                    &.top {
+                        top: 280px;
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,1 +1,3 @@
-# proton-voice-command
+npm install
+
+run using gulp serve

@@ -1,0 +1,197 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+#proton-x70-2020 {
+  .overlay-before-load {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: white;
+    z-index: 100;
+  }
+
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .landing-popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.96);
+
+    @media screen and (min-width: 768px){
+      width: 98%;
+      height: 96%;
+    }
+
+    .model-intro {
+      top: 0;
+
+      @media screen and (min-width: 768px) {
+        top: 50px;
+      }
+    }
+
+    .modal-content {
+      background-color: transparent;
+      border: 0;
+
+      .text-wrapper {
+        h4 {
+          text-transform: uppercase;
+        }
+        p {
+          text-transform: normal;
+        }
+      }
+    }
+
+    .x70-modal-close {
+      position: absolute;
+      right: 0;
+      font-size: 45px;
+      font-family: initial;
+      text-shadow: none;
+      color: white;
+      font-weight: 100;
+      opacity: 1;
+      cursor: pointer;
+      transition: all 0.3s;
+      z-index: 5;
+      top: -14.5rem;
+
+      &:hover {
+        color: #a9a9a9 !important;
+        opacity: 0.8 !important;
+        transition: all 0.3s;
+      }
+    }
+  }
+
+  .modal-body {
+    .keyword-wrapper {
+      @media screen and (min-width: 1400px) {
+        max-width: 80%;
+      }
+      @media screen and (min-width: 1800px) {
+        max-width: 60%;
+      }
+    }
+  }
+
+  .main-voice-btn {
+    width: 100%;
+    margin: auto;
+
+    img {
+      cursor: pointer;
+      border-radius: 100px;
+      // box-shadow: 0px 0px 50px 0 #0aa4d4;
+      animation: glowing 4000ms infinite;
+    }
+
+    &.active {
+      img {
+        animation: glowingActive 3000ms infinite;
+      }
+    }
+
+    &.model-headline {
+      bottom: 140%;
+
+      @media screen and (min-width: 768px) {
+        bottom: 60%;
+      }
+    }
+
+    @keyframes glowing {
+      0% {
+        box-shadow: 0 0 20px 0 $color-primary-blue;
+      }
+      40% {
+        box-shadow: 0 0 50px 0 $color-primary-blue;
+      }
+      60% {
+        box-shadow: 0 0 50px 0 $color-primary-blue;
+      }
+      100% {
+        box-shadow: 0 0 20px 0 $color-primary-blue;
+      }
+    }
+
+    @keyframes glowingActive {
+      0% {
+        box-shadow: 0 0 20px 0 white;
+      }
+      40% {
+        box-shadow: 0 0 50px 0 white;
+      }
+      60% {
+        box-shadow: 0 0 50px 0 white;
+      }
+      100% {
+        box-shadow: 0 0 20px 0 white;
+      }
+    }
+  }
+
+  .close-btn-wrapper {
+    right: 0;
+    top: 0;
+  }
+
+  .text-modal-frame-1,
+  .text-modal-frame-2,
+  .text-modal-frame-3,
+  .text-modal-frame-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text-modal-frame-4 {
+    .text-modal-title {
+      font-size: 14px;
+
+      @media screen and (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .keyword-frame {
+      height: 40px;
+
+      .keyword-frame-inner {
+        height: 36px;
+
+        .keyword-frame-text {
+          font-size: 10px;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        height: 45px;
+
+        .keyword-frame-inner {
+          height: 41px;
+  
+          .keyword-frame-text {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .text-modal-title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-primary-blue;
+    letter-spacing: 3px;
+  }
+}

@@ -1,0 +1,31 @@
+<div class="detail-sub-slider">
+    <div class="detail-slider-bg {{alignment}}" style="background-image:url('{{imgSrc}}');"></div>
+    <div class="container-fluid model-headline {{class}}">
+        <div class="row">
+            {{!-- <div class="col-1"></div> --}}
+
+            {{!-- if left true, width always by default 4 --}}
+            {{#if left}}
+            <div class="col-8"></div>
+            {{/if}}
+
+            <div class="pl-5 ml-5 col-{{width}}">
+                <h4 class="detail-sub-slider-title text-uppercase bold text-white mb-0 {{animation}}">{{{title}}}</h4>
+                <p class="text-white text-shadow mb-1 {{animation}}">{{{description}}}</p>
+                <p class="disclaimer text-left text-shadow text-white m-0 {{animation}}">{{{disclaimer}}}</p>
+            </div>
+        </div>
+    </div>
+
+    {{#if bottom-right-disclaimer}}
+    <div class="container-fluid model-headline">
+        <div class="row">
+            {{!-- <div class="col-1"></div> --}}
+            <div class="col-7"></div>
+            <div class="pl-5 ml-5 col-4">
+                <p class="disclaimer text-left text-shadow text-white m-0">{{{bottom-right-disclaimer}}}</p>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+</div>

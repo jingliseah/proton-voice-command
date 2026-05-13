@@ -1,0 +1,170 @@
+{{#> layouts/base title="Homepage" }}
+{{#*inline "meta-block"}}
+{{> includes/meta }}
+{{/inline}}
+
+
+{{#*inline "content-block"}}
+
+<div id="proton-x70-2020" class="container-fluid">
+    <div id="loader-page">
+        <div class="loader-name flash animated infinite slower">Loading</div>
+        <div class="loader-circle"></div>
+    </div>
+
+    <div class="overlay-loader d-block"></div>
+
+    <div class="row voice-info-alert">
+		
+        <div class="col-12">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="/assets/x70/2020/img/ProtonMasterBrandLogoWithoutTagline.png">
+                <div>
+                    <p class="title text-dark">For a Better<br />Browsing Experience</p>
+                    <p>Use Chrome on desktop or any Android mobile device.</p>
+                </div>
+            </div>
+        </div>
+		<button id="btn-x70-modal-close" type="button" class="x70-info-alert-close close fadeIn animated delay-2s">
+                <span aria-hidden="true">&times;</span>
+		</button>
+    </div>
+
+    <div class="voice-info-alert-xs">
+        <div class="voice-info-alert-wrapper py-5">
+            <button id="btn-x70-modal-close" type="button" class="x70-info-alert-close close fadeIn animated delay-1s">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="title">For a Better<br />Browsing Experience</h4>
+            <p class="text-white">Use Chrome on desktop or any Android mobile device.</p>
+        </div>
+    </div>
+
+    {{> components/SpeechGuide}}
+
+    <div id="voice">
+        <audio id="hi-proton-audio">
+            <source src="/assets/x70/2020/img/audio/hi-proton-audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <button type="button" id="btn-voice" class="voice-btn animated pulse infinite slow" data-toggle="popover" data-placement="top"
+            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <img src="/assets/x70/2020/img/Microphone.png" alt="">
+
+            <p class="click-here text-white">CLICK<br class="d-md-none"> HERE</p>
+        </button>
+    </div>
+
+    <div class="row landing-popup">
+        <div class="col-12">
+            {{>components/Modal}}
+        </div>
+    </div>
+
+    <div class="row d-md-none">
+        <div class="col-12">
+            <marquee behavior="scroll" direction="left" class="guide-wrapper-xs guide-info-xs position-absolute d-md-none">
+                Need help to navigate? Click on the microphone icon and say "Hi PROTON!"
+            </marquee>
+
+            <div class="mobile-nav-display d-flex">
+                <p class="mobile-selected-nav-item text-uppercase m-0 text-white">FEATURES</p>
+            </div>
+
+            <ul class="mobile-nav">
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link">FEATURES</a>
+                    <ul class="mobile-sub-nav">
+                        <li class="mobile-sub-nav-item"><a class="mobile-sub-nav-link" href="#refinedDesign" data-menuanchor="refinedDesign">Refined Design</a></li>
+                        <li class="mobile-sub-nav-item"><a class="mobile-sub-nav-link" href="#refinedConnectivity" data-menuanchor="refinedConnectivity">Redefined Connectivity</a></li>
+						<li class="mobile-sub-nav-item"><a class="mobile-sub-nav-link" href="#responsivePerformance" data-menuanchor="responsivePerformance">Responsive Performance</a></li>
+                        <li class="mobile-sub-nav-item"><a class="mobile-sub-nav-link" href="#reassuredSafety" data-menuanchor="reassuredSafety">Reassured Safety</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link" href="#360View" data-menuanchor="360View">360°</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link" href="#variantComparison" data-menuanchor="variantComparison">Variant Comparison</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link" href="#priceComparison" data-menuanchor="priceComparison">Price and Specifications</a></li>
+            </ul>
+
+            <div class="mobile-nav-overlay"></div>
+
+            <div class="img-wrapper position-absolute right16 expand-icon zindex5 m-2"><img src="/assets/x70/2020/img/icons/ArrowUp.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="row speech-error position-absolute bg-danger text-center text-uppercase w-100 top0 flash animated">
+        <div class="col-12">
+            <p class="speech-error-msg m-0 text-white">TRY AGAIN</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="all-widgets-wrapper animated d-none d-md-block">
+            {{> components/Widget
+                id = 'widget-test-drive' 
+                link = '/en/shopping-tools/book-test-drive'
+                icon = '/assets/x70/2020/img/icons/TestDrive.png'
+                text = 'Test<br class="d-none d-md-block"> Drive'
+                alt = 'Test Drive'
+            }}
+            {{> components/Widget
+                id = 'widget-booking' 
+                link = 'https://www.proton.com/en/find-a-car/protonx70/online-booking'
+                icon = '/assets/x70/2020/img/icons/Booking.png'
+                text = 'Online<br class="d-none d-md-block"> Booking'
+                alt = 'Online Booking'
+            }}
+            {{> components/Widget
+                id = 'widget-dealer-locator' 
+                link = '/en/dealer-locator'
+                icon = '/assets/x70/2020/img/icons/Map.png'
+                text = 'Outlet<br class="d-none d-md-block"> Locator'
+                alt = 'Outlet Locator'
+            }}
+            {{> components/Widget
+                id = 'widget-calculator' 
+                link = '/en/shopping-tools/loan-calculator'
+                icon = '/assets/x70/2020/img/icons/Calculator.png'
+                text = 'Loan<br class="d-none d-md-block"> Calculator '
+                alt = 'Loan Calculator '
+            }}
+        </div>
+    </div>
+
+    <div class="row d-none d-md-block">
+        <div id="fullpage-desktop" class="col-12" >
+            <div id="headline" class="section" style="background:url('/assets/x70/2020/img/section/landingPage/KV.png')">{{>sections/Headline}}</div>
+            <div id="feature-overview" class="section" style="background: url('/assets/x70/2020/img/section/featureOverview/Refined-Design.jpg') no-repeat center;">{{>sections/FeatureOverview}}</div>
+            <div id="feature-details" class="section">{{>sections/FeatureDetails}}</div>
+            <div id="360-view" class="section fp-noscroll" style="background: url('/assets/x70/2020/img/section/360/Exterior/360-exterior-desktop-background.jpg') no-repeat center;">
+                {{>sections/Exterior360View}}
+                {{>sections/Interior360View}}
+            </div>
+            {{!-- <div id="specification-comparison" class="section">{{>sections/SpecificationComparison}}</div> --}}
+            <div id="variant-comparison" class="section">{{>sections/VariantComparison}}</div>
+            <div id="price-comparison" class="section fp-auto-height">{{>sections/PriceComparison}}</div>
+        </div>
+    </div>
+
+    <div class="row d-block d-md-none">
+        <div id="fullpage-mobile" class="col-12">
+            <div id="headline-xs" class="section fp-noscroll" style="background:url('/assets/x70/2020/img/section/landingPage/KV-xs.png')">{{>sections/Headline}}</div>
+            <div id="refined-design-xs" class="section fp-noscroll" style="background: url('/assets/x70/2020/img/section/featureOverview/Refined-Design.jpg') no-repeat center;">{{>sections/mobile/RefinedDesign}}</div>
+            <div id="refined-connectivity-xs" class="section fp-noscroll" style="background: url('/assets/x70/2020/img/section/featureOverview/Redefined-Connectivity.jpg') no-repeat center;">{{>sections/mobile/RefinedConnectivity}}</div>
+            <div id="responsive-performance-xs" class="section fp-noscroll" style="background: url('/assets/x70/2020/img/section/featureOverview/Responsive-Performance.jpg') no-repeat center;">{{>sections/mobile/ResponsivePerformance}}</div>
+            <div id="reassured-safety" class="section fp-noscroll" style="background: url('/assets/x70/2020/img/section/featureOverview/Reassured-Safety.jpg') no-repeat center;">{{>sections/mobile/ReassuredSafety}}</div>
+            <div id="360-view-xs" class="section fp-noscroll" style="background: url('/assets/x70/2020/img/section/360/Exterior/360-exterior-mobile-background.jpg') no-repeat center;">
+                {{>sections/Exterior360View}}
+                {{>sections/Interior360View}}
+            </div>
+            <div id="variant-comparison-xs" class="section fp-noscroll">{{>sections/VariantComparison}}</div>
+            <div id="price-comparison-xs" class="section fp-auto-height">{{>sections/PriceComparison}}</div>
+            {{!-- <div id="specification-comparison" class="section">{{>sections/SpecificationComparison}}</div> --}}
+        </div>
+    </div>
+</div>
+
+
+{{/inline}}
+{{/layouts/base}}

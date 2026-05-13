@@ -1,0 +1,46 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+/* Overwrite Proton Navigation */
+.navbar {
+  position: fixed !important;
+  background: linear-gradient(180deg, #020024 27%, #010317 83%, #144b7b 100%); }
+  .navbar.nav-fixed-top {
+    position: fixed !important; }
+  .navbar .navbar-brand {
+    position: absolute !important;
+    top: 10px !important; }
+  .navbar .menu-toggle-button.open span {
+    background: black !important; }
+  .navbar .menu-toggle-button span {
+    background: white !important; }
+
+.sub-menu-nav-wrapper {
+  position: fixed !important; }
+  .sub-menu-nav-wrapper .sub-menu-nav {
+    background-color: transparent !important; }
+    .sub-menu-nav-wrapper .sub-menu-nav a {
+      font-family: 'MyriadPro-Regular' !important;
+      border-bottom: 0px !important;
+      text-transform: uppercase !important;
+      letter-spacing: 3px !important;
+      font-size: 14px !important;
+      color: #b2b2b2 !important;
+      border-bottom: 2px solid #02021e !important; }
+      .sub-menu-nav-wrapper .sub-menu-nav a:hover, .sub-menu-nav-wrapper .sub-menu-nav a:active {
+        border-bottom: 2px solid #0AA4D4 !important;
+        border-color: #0AA4D4 !important;
+        color: #0AA4D4 !important; }
+      .sub-menu-nav-wrapper .sub-menu-nav a.active {
+        border-bottom: 2px solid #0AA4D4 !important;
+        border-color: #0AA4D4 !important;
+        color: #0AA4D4 !important; }
+
+.rich-text-editor-wrapper #proton-x70-2020 ul {
+  font-family: 'MyriadPro-Regular', sans-serif !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important; }
+  .rich-text-editor-wrapper #proton-x70-2020 ul li a {
+    font-family: 'MyriadPro-Regular', sans-serif !important; }

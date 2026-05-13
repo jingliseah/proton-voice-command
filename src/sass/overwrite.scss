@@ -1,0 +1,84 @@
+@import "1-base/1-variables";
+@import "1-base/4-mediaquery";
+
+
+/* Overwrite Proton Navigation */
+.navbar {
+	position: fixed !important;
+	background: linear-gradient(180deg, rgba(2,0,36,1) 27%, rgba(1,3,23,1) 83%, rgba(20,75,123,1) 100%);
+
+
+	&.nav-fixed-top {
+		position: fixed !important;
+	}
+	.navbar-brand {
+		position: absolute !important;
+		top: 10px !important;
+	}
+
+	.menu-toggle-button {
+		&.open {
+			span {
+				background: black !important;
+			}
+		}
+	
+		span {
+			background: white !important;
+		}
+	}
+}
+
+.sub-menu-nav-wrapper {
+	position: fixed !important;
+
+	.sub-menu-nav {
+		background-color: transparent !important;
+	
+		a {
+			font-family: 'MyriadPro-Regular' !important;
+			border-bottom: 0px !important;
+			text-transform: uppercase !important;
+			letter-spacing: 3px !important;
+			font-size: 14px !important;
+			color: #b2b2b2 !important;
+			border-bottom: 2px solid #02021e !important;
+	
+			&:hover, &:active {
+				border-bottom: 2px solid $color-primary-blue !important;
+				border-color: $color-primary-blue !important;
+				color: $color-primary-blue !important;
+			}
+
+			&.active {
+				border-bottom: 2px solid $color-primary-blue !important;
+				border-color: $color-primary-blue !important;
+				color: $color-primary-blue !important;
+			}
+		}
+	}
+}
+
+
+.rich-text-editor-wrapper {
+	#proton-x70-2020 {	
+		ul {
+			font-family: 'MyriadPro-Regular', sans-serif !important;
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+			// padding-left: 0 !important;
+			padding-right: 0 !important;
+			
+
+			li {
+
+				a {
+					font-family: 'MyriadPro-Regular', sans-serif !important;
+				}
+			}
+		}
+	}
+} 
+
+
+

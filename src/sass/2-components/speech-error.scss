@@ -1,0 +1,17 @@
+@import "../1-base/1-variables";
+@import "../1-base/4-mediaquery";
+
+
+#proton-x70-2020 {
+  .speech-error {
+    display: none;
+    top: 103px;
+    left: 15px;
+    z-index: 2;
+    letter-spacing: 3px;
+
+    @media screen and (min-width: 768px){
+      top: 66px;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+/** Colors **/
+/** Media Queries **/
+/** Colors **/
+/** Media Queries **/
+#proton-x70-2020 .mobile-nav-display {
+  position: absolute;
+  top: 64px;
+  z-index: 2;
+  padding: 10px 30px;
+  width: 100vw;
+  background: linear-gradient(180deg, #302e2e 0, #212121 100%);
+  color: white;
+  letter-spacing: 3px; }
+  #proton-x70-2020 .mobile-nav-display .mobile-selected-nav-item {
+    display: block;
+    font-size: 13px !important; }
+
+#proton-x70-2020 .mobile-nav {
+  position: absolute;
+  display: none;
+  top: 64px;
+  z-index: 3;
+  width: 100vw;
+  padding: 0;
+  list-style: none;
+  font-size: 13px !important; }
+  #proton-x70-2020 .mobile-nav .mobile-nav-item {
+    background: linear-gradient(180deg, #302e2e 0%, #212121 100%);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 0.3s;
+    margin-bottom: 3px; }
+    #proton-x70-2020 .mobile-nav .mobile-nav-item .mobile-nav-link {
+      color: white;
+      display: block; }
+    #proton-x70-2020 .mobile-nav .mobile-nav-item .mobile-sub-nav {
+      list-style: none;
+      /* margin-left: 0; */
+      padding-left: 0; }
+      #proton-x70-2020 .mobile-nav .mobile-nav-item .mobile-sub-nav .mobile-sub-nav-item .mobile-sub-nav-link {
+        display: block;
+        color: #8E8E8E;
+        transition: all 0.3s; }
+      #proton-x70-2020 .mobile-nav .mobile-nav-item .mobile-sub-nav .mobile-sub-nav-item:hover .mobile-sub-nav-link {
+        transition: all 0.3s;
+        color: #0AA4D4; }
+    #proton-x70-2020 .mobile-nav .mobile-nav-item:hover .mobile-nav-link {
+      transition: all 0.3s;
+      color: #0AA4D4; }
+  #proton-x70-2020 .mobile-nav li {
+    padding: 10px 30px; }
+
+#proton-x70-2020 .mobile-nav-overlay {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: black;
+  opacity: .7;
+  top: 64px; }
+
+#proton-x70-2020 .expand-icon {
+  pointer-events: none;
+  transition: transform 0.5s;
+  transform: rotate(0deg);
+  top: 66px; }
+  #proton-x70-2020 .expand-icon.active {
+    transition: transform 0.5s;
+    transform: rotate(180deg); }
+
+#proton-x70-2020 .x70-menu-wrapper {
+  top: 66px; }
+  #proton-x70-2020 .x70-menu-wrapper.bg-shadow {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 7%, rgba(0, 0, 0, 0.7) 100%); }
+  #proton-x70-2020 .x70-menu-wrapper ul {
+    list-style: none;
+    padding-left: 0; }
+  #proton-x70-2020 .x70-menu-wrapper .model-intro {
+    top: calc(100vh/3 + 20px); }

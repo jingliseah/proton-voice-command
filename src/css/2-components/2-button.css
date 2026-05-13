@@ -1,0 +1,112 @@
+/* Custom Button */
+#proton-x70-2020 {
+  /* Voice Button */ }
+  #proton-x70-2020 .cust-button-wrap {
+    opacity: 0.9;
+    filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.5)); }
+  #proton-x70-2020 .cust-button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 245px;
+    height: 45px;
+    background: lightblue;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0 39%, 6% 0, 100% 0, 100% 63%, 94% 100%, 0 100%);
+    clip-path: polygon(0 39%, 6% 0, 100% 0, 100% 63%, 94% 100%, 0 100%);
+    transition: all 0.3s; }
+    #proton-x70-2020 .cust-button.shine {
+      background-position: -150px -120px, 0 0;
+      background-image: linear-gradient(0 0, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 50%);
+      background-image: -webkit-linear-gradient(top left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 50%);
+      background-image: -moz-linear-gradient(0 0, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 50%);
+      background-image: -o-linear-gradient(0 0, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 50%);
+      background-image: linear-gradient(0 0, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 50%); }
+      #proton-x70-2020 .cust-button.shine:hover {
+        background-position: 200px 0, 0 0;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        transition-duration: 0.5s; }
+  #proton-x70-2020 .cust-button-inner {
+    background: linear-gradient(0deg, #2a4a67 0%, #6dc7d9 69%, #c9f5fe 100%);
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 240px;
+    height: 41px;
+    -webkit-clip-path: polygon(0 39%, 5% 0, 100% 0, 100% 60%, 94% 100%, 0 100%);
+    clip-path: polygon(0 39%, 5% 0, 100% 0, 100% 60%, 94% 100%, 0 100%); }
+  #proton-x70-2020 .cust-button-text {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    letter-spacing: 3px;
+    font-size: 12px; }
+  #proton-x70-2020 #voice {
+    position: absolute;
+    width: 100vw;
+    height: 100vh; }
+  #proton-x70-2020 .voice-btn {
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 6%;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 20px 0 #0aa4d4;
+    -moz-box-shadow: 0px 0px 20px 0 #0aa4d4;
+    box-shadow: 0px 0px 20px 0 #0aa4d4; }
+    @media screen and (min-width: 768px) {
+      #proton-x70-2020 .voice-btn {
+        top: 25%;
+        left: 10%; } }
+    #proton-x70-2020 .voice-btn img {
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+    #proton-x70-2020 .voice-btn .click-here {
+      position: absolute;
+      font-size: 8px;
+      bottom: -28px;
+      text-align: center;
+      margin: 0;
+      letter-spacing: 3px;
+      width: 80px;
+      left: -14px;
+      line-height: 11px;
+      text-shadow: 1px 1px 4px #000; }
+      @media screen and (min-width: 768px) {
+        #proton-x70-2020 .voice-btn .click-here {
+          bottom: -22px;
+          font-size: 10px;
+          line-height: unset; } }
+    #proton-x70-2020 .voice-btn .fa-microphone {
+      color: white; }
+    #proton-x70-2020 .voice-btn:focus {
+      outline: 0px auto -webkit-focus-ring-color; }
+    #proton-x70-2020 .voice-btn:hover {
+      background: transparent;
+      transition: all 0.6s;
+      -webkit-box-shadow: 0px 0px 20px 0 #0aa4d4;
+      -moz-box-shadow: 0px 0px 20px 0 #0aa4d4;
+      box-shadow: 0px 0px 20px 0 #0aa4d4; }
+    #proton-x70-2020 .voice-btn.active {
+      background: transparent;
+      transition: all 0.3s;
+      -webkit-box-shadow: 0px 0px 20px 0 white;
+      -moz-box-shadow: 0px 0px 20px 0 white;
+      box-shadow: 0px 0px 20px 0 white; }
+      #proton-x70-2020 .voice-btn.active:hover {
+        background: transparent;
+        transition: all 0.3s; }
